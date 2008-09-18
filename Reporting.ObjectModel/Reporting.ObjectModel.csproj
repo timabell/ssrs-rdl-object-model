@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCB8D3F9-1F89-472C-A78E-C4124DECD949}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reporting.ObjectModel</RootNamespace>
+    <AssemblyName>Reporting.ObjectModel</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Body.cs" />
+    <Compile Include="BorderColor.cs" />
+    <Compile Include="BorderStyle.cs" />
+    <Compile Include="BorderWidth.cs" />
+    <Compile Include="ConnectionProperties.cs" />
+    <Compile Include="CustomPropertiesCollection.cs" />
+    <Compile Include="CustomProperty.cs" />
+    <Compile Include="DataRegion.cs" />
+    <Compile Include="DataSet.cs" />
+    <Compile Include="DataSetCollection.cs" />
+    <Compile Include="DataSetReference.cs" />
+    <Compile Include="DataSource.cs" />
+    <Compile Include="DataSourceCollection.cs" />
+    <Compile Include="DataValue.cs" />
+    <Compile Include="DataValueCollection.cs" />
+    <Compile Include="DefaultValue.cs" />
+    <Compile Include="Details.cs" />
+    <Compile Include="EmbeddedImage.cs" />
+    <Compile Include="EmbeddedImageCollection.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="Expression.cs" />
+    <Compile Include="ExpressionCollection.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="FieldCollection.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="FilterCollection.cs" />
+    <Compile Include="FilterExpression.cs" />
+    <Compile Include="FilterValue.cs" />
+    <Compile Include="FilterValueCollection.cs" />
+    <Compile Include="Footer.cs" />
+    <Compile Include="GroupExpressionCollection.cs" />
+    <Compile Include="Grouping.cs" />
+    <Compile Include="Header.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="Line.cs" />
+    <Compile Include="PageFooter.cs" />
+    <Compile Include="PageHeader.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="ParametersCollection.cs" />
+    <Compile Include="ParameterValue.cs" />
+    <Compile Include="ParameterValueCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyVersion.cs" />
+    <Compile Include="PropertyCollection.cs" />
+    <Compile Include="Query.cs" />
+    <Compile Include="QueryParameter.cs" />
+    <Compile Include="QueryParameterCollection.cs" />
+    <Compile Include="Rdl.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="ReportFont.cs" />
+    <Compile Include="ReportFontWeight.cs" />
+    <Compile Include="ReportItem.cs" />
+    <Compile Include="ReportItemCollection.cs" />
+    <Compile Include="ReportParameter.cs" />
+    <Compile Include="ReportParameterCollection.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="Table.cs" />
+    <Compile Include="TableCell.cs" />
+    <Compile Include="TableCellCollection.cs" />
+    <Compile Include="TableColumn.cs" />
+    <Compile Include="TableColumnCollection.cs" />
+    <Compile Include="TableGroup.cs" />
+    <Compile Include="TableGroupCollection.cs" />
+    <Compile Include="TableRow.cs" />
+    <Compile Include="TableRowCollection.cs" />
+    <Compile Include="Textbox.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="ValidValues.cs" />
+    <Compile Include="Value.cs" />
+    <Compile Include="ValueCollection.cs" />
+    <Compile Include="Visibility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrams\RDL Object Model.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

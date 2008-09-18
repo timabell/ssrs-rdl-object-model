@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Presentations\TechEd\2007\Source\bin\TestHarness.exe</StartProgram>
+    <StartWorkingDirectory>C:\Presentations\TechEd\2007\Source\bin\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>

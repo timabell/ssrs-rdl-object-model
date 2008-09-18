@@ -1,0 +1,13 @@
+SCC = This is a Source Code Control file
+
+[TestHarness.csproj]
+SCC_Aux_Path = "C:\Backup\VSS"
+SCC_Project_Name = "$/Presentations/TechEd/2007/Source/TestHarness", BGHAAAAA
+
+[TestHarness.sln]
+SCC_Aux_Path = "C:\Backup\VSS"
+SCC_Project_Name = "$/Presentations/TechEd/2007/Source/TestHarness/TestHarness", DRGAAAAA
+
+[BIN_APP.sln]
+SCC_Aux_Path = "C:\Backup\VSS"
+SCC_Project_Name = "$/Presentations/TechEd/2007/Source/BIN_APP/TestHarness", BYGAAAAA
