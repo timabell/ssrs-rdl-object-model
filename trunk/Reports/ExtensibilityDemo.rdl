@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <BottomMargin>1in</BottomMargin>
+  <RightMargin>1in</RightMargin>
+  <ReportParameters>
+    <ReportParameter Name="Settings">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>&lt;settings&gt;&lt;CultureInfo&gt;AAEAAAD/////AQAAAAAAAAAEAQAAACBTeXN0ZW0uR2xvYmFsaXphdGlvbi5DdWx0dXJlSW5mbwoAAAAJY3VsdHVyZUlEDG1faXNSZWFkT25seQtjb21wYXJlSW5mbwh0ZXh0SW5mbwdudW1JbmZvDGRhdGVUaW1lSW5mbwhjYWxlbmRhcgZtX25hbWUKbV9kYXRhSXRlbRFtX3VzZVVzZXJPdmVycmlkZQAAAwMDAwMBAAAIASBTeXN0ZW0uR2xvYmFsaXphdGlvbi5Db21wYXJlSW5mbx1TeXN0ZW0uR2xvYmFsaXphdGlvbi5UZXh0SW5mbyVTeXN0ZW0uR2xvYmFsaXphdGlvbi5OdW1iZXJGb3JtYXRJbmZvJ1N5c3RlbS5HbG9iYWxpemF0aW9uLkRhdGVUaW1lRm9ybWF0SW5mbx1TeXN0ZW0uR2xvYmFsaXphdGlvbi5DYWxlbmRhcggBCQQAAAEJAgAAAAoJAwAAAAoKBgQAAAAFZW4tVVMpAAAAAQQCAAAAIFN5c3RlbS5HbG9iYWxpemF0aW9uLkNvbXBhcmVJbmZvAwAAAAl3aW4zMkxDSUQHY3VsdHVyZQZtX25hbWUAAAEICAkEAAAJBAAABgUAAAAFZW4tVVMEAwAAACVTeXN0ZW0uR2xvYmFsaXphdGlvbi5OdW1iZXJGb3JtYXRJbmZvIQAAABBudW1iZXJHcm91cFNpemVzEmN1cnJlbmN5R3JvdXBTaXplcxFwZXJjZW50R3JvdXBTaXplcwxwb3NpdGl2ZVNpZ24MbmVnYXRpdmVTaWduFm51bWJlckRlY2ltYWxTZXBhcmF0b3IUbnVtYmVyR3JvdXBTZXBhcmF0b3IWY3VycmVuY3lHcm91cFNlcGFyYXRvchhjdXJyZW5jeURlY2ltYWxTZXBhcmF0b3IOY3VycmVuY3lTeW1ib2wSYW5zaUN1cnJlbmN5U3ltYm9sCW5hblN5bWJvbBZwb3NpdGl2ZUluZmluaXR5U3ltYm9sFm5lZ2F0aXZlSW5maW5pdHlTeW1ib2wXcGVyY2VudERlY2ltYWxTZXBhcmF0b3IVcGVyY2VudEdyb3VwU2VwYXJhdG9yDXBlcmNlbnRTeW1ib2wOcGVyTWlsbGVTeW1ib2wMbmF0aXZlRGlnaXRzCm1fZGF0YUl0ZW0TbnVtYmVyRGVjaW1hbERpZ2l0cxVjdXJyZW5jeURlY2ltYWxEaWdpdHMXY3VycmVuY3lQb3NpdGl2ZVBhdHRlcm4XY3VycmVuY3lOZWdhdGl2ZVBhdHRlcm4VbnVtYmVyTmVnYXRpdmVQYXR0ZXJuFnBlcmNlbnRQb3NpdGl2ZVBhdHRlcm4WcGVyY2VudE5lZ2F0aXZlUGF0dGVybhRwZXJjZW50RGVjaW1hbERpZ2l0cxFkaWdpdFN1YnN0aXR1dGlvbgppc1JlYWRPbmx5EW1fdXNlVXNlck92ZXJyaWRlFXZhbGlkRm9yUGFyc2VBc051bWJlchd2YWxpZEZvclBhcnNlQXNDdXJyZW5jeQcHBwEBAQEBAQEBAQEBAQEBAQYAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgBAQEBCQYAAAAJBwAAAAkGAAAABgkAAAABKwYKAAAAAS0GCwAAAAEuBgwAAAABLAYNAAAAASwGDgAAAAEuBg8AAAABJAoGEAAAAANOYU4GEQAAAAhJbmZpbml0eQYSAAAACS1JbmZpbml0eQkLAAAACQwAAAAGFQAAAAElBhYAAAAD4oCwCRcAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAABAAAAAQABAQ8GAAAAAQAAAAgDAAAADwcAAAABAAAACAMAAAARFwAAAAoAAAAGGAAAAAEwBhkAAAABMQYaAAAAATIGGwAAAAEzBhwAAAABNAYdAAAAATUGHgAAAAE2Bh8AAAABNwYgAAAAATgGIQAAAAE5Cw==&lt;/CultureInfo&gt;&lt;/settings&gt;</Value>
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Settings</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox3">
+        <Left>0.25in</Left>
+        <Top>0.75in</Top>
+        <ZIndex>3</ZIndex>
+        <Width>1.375in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>700</FontWeight>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>Formatted Value:</Value>
+      </Textbox>
+      <Textbox Name="textbox4">
+        <Left>1.625in</Left>
+        <Top>0.75in</Top>
+        <ZIndex>2</ZIndex>
+        <Width>1.375in</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <Format>=Reporting.Extensibility.Util.GetCurrencyFormat(Parameters!Settings.Value, True, 3)</Format>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=CDbl(12345.3456)</Value>
+      </Textbox>
+      <Textbox Name="textbox2">
+        <Left>0.25in</Left>
+        <Top>0.375in</Top>
+        <rd:DefaultName>textbox2</rd:DefaultName>
+        <ZIndex>1</ZIndex>
+        <Width>1.375in</Width>
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <FontWeight>700</FontWeight>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>Original Value:</Value>
+      </Textbox>
+      <Textbox Name="textbox1">
+        <Left>1.625in</Left>
+        <Top>0.375in</Top>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Width>1.375in</Width>
+        <Style>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Height>0.25in</Height>
+        <Value>=CDbl(12345.3456)</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>2in</Height>
+  </Body>
+  <rd:ReportID>083728e9-7aca-4a04-9272-dfee1995eb7a</rd:ReportID>
+  <LeftMargin>1in</LeftMargin>
+  <CodeModules>
+    <CodeModule>Reporting.Extensibility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</CodeModule>
+  </CodeModules>
+  <Code />
+  <Width>6.5in</Width>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <Language>en-US</Language>
+  <TopMargin>1in</TopMargin>
+</Report>
