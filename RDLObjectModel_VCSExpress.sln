@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C# Express 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "TestHarness\TestHarness.csproj", "{3B157295-5766-4993-B7A7-AB1E92DD8100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporting.ObjectModel", "Reporting.ObjectModel\Reporting.ObjectModel.csproj", "{CCB8D3F9-1F89-472C-A78E-C4124DECD949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsRequestViewer", "RsRequestViewer\RsRequestViewer.csproj", "{2419594C-F387-489E-8698-CA12FAB3F26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporting.Extensibility", "Reporting.Extensibility\Reporting.Extensibility.csproj", "{89627073-7012-4A27-B986-A7EDCD0130FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.Production|Any CPU.Build.0 = Release|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B157295-5766-4993-B7A7-AB1E92DD8100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.Production|Any CPU.Build.0 = Release|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB8D3F9-1F89-472C-A78E-C4124DECD949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.Production|Any CPU.Build.0 = Release|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2419594C-F387-489E-8698-CA12FAB3F26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.Production|Any CPU.ActiveCfg = Release|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.Production|Any CPU.Build.0 = Release|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89627073-7012-4A27-B986-A7EDCD0130FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccProjectUniqueName0 = Reporting.ObjectModel\\Reporting.ObjectModel.csproj
+		SccLocalPath0 = .
+		SccProjectFilePathRelativizedFromConnection0 = Reporting.ObjectModel\\
+		SccProjectUniqueName1 = Reports\\Reports.rptproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Reports\\
+		SccProjectUniqueName2 = TestHarness\\TestHarness.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = TestHarness\\
+		SccProjectUniqueName3 = RsRequestViewer\\RsRequestViewer.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = RsRequestViewer\\
+		SccProjectUniqueName4 = Reporting.CLR\\Reporting.CLR.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = Reporting.CLR\\
+		SccProjectUniqueName5 = Reporting.Extensibility\\Reporting.Extensibility.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = Reporting.Extensibility\\
+		SccProjectName6 = \u0022$/Presentations/TechEd/2007/Source\u0022,\u0020XCHAAAAA
+		SccLocalPath6 = .
+		SccProvider6 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+EndGlobal
