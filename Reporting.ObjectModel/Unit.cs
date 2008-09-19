@@ -331,10 +331,11 @@ namespace Reporting.ObjectModel
 			}
 
 			string valueSubstring = valueString.Substring(0, num2 + 1);
+
 			try
 			{
-				TypeConverter converter = new SingleConverter();
-				_value = (float)converter.ConvertFromString(null, culture, valueSubstring);
+				TypeConverter converter = new SingleConverter();	
+				_value = (float)converter.ConvertFromString(null, CultureInfo.InvariantCulture, valueSubstring);
 			}
 			catch
 			{
@@ -393,7 +394,7 @@ namespace Reporting.ObjectModel
 
 		public override string ToString()
 		{
-			return ToString(CultureInfo.CurrentCulture);
+			return ToString(CultureInfo.InvariantCulture);
 		}
 
 		#endregion
