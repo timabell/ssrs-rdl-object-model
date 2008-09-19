@@ -423,5 +423,22 @@ namespace Reporting.ObjectModel
 
 
 		#endregion
+
+		#region public Methods
+		public static string EscapeName(string Name)
+		{
+			string tmp = Name.Replace(" ", "_");
+			tmp = Name.Replace(".", "_");
+			try
+			{
+				int num = Convert.ToInt32(tmp);
+				return "E_" + num;
+			}
+			catch (Exception)
+			{
+				return tmp;
+			}
+		}
+		#endregion
 	}
 }
