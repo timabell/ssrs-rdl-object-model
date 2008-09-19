@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Reporting.ObjectModel.Body" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Body.cs</FileName>
+      <HashCode>AAgAAQAABADAAAAAIAAAAAACAADAAAAABAAAgCgAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.BorderColor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BorderColor.cs</FileName>
+      <HashCode>ABAAAAAAAAACAAAAAAAQIAACAABMAQgACACAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.BorderStyle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BorderStyle.cs</FileName>
+      <HashCode>ABAAAAAAAAACAAAAAAAQIAACAABMAQgACACAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.BorderWidth" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BorderWidth.cs</FileName>
+      <HashCode>ABAAAAAAAAACAAAAAAAQIAACAABMAQgACACAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ConnectionProperties" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ConnectionProperties.cs</FileName>
+      <HashCode>wAAAAAAAAAAEAAAAAAAAACBCAABACAAAAAEAgABAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.CustomPropertiesCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CustomPropertiesCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.CustomProperty" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CustomProperty.cs</FileName>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQCAABAAAAAAAAggAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataRegion" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataRegion.cs</FileName>
+      <HashCode>AAgCAAgAAAEAIAABAIIgAIBAQAAAQAAAAAAACAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataSet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSet.cs</FileName>
+      <HashCode>AAAAIAAgAAkAAQAgQICIAAQCAABABAgAAAAgkABCgAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataSetCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSetCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataSetReference" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSetReference.cs</FileName>
+      <HashCode>AAIAAAAACAAAAAAAAAAAAIACAABEAAAAAgAAiAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataSource" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSource.cs</FileName>
+      <HashCode>AACAIAQAAAAAAAQAAAACAAQCAABQAQAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataSourceCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataSourceCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataValue.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAggAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DataValueCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataValueCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.DefaultValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DefaultValue.cs</FileName>
+      <HashCode>gAAAAQAAAAAAAAAAAAAAAAACAABAAAAAAAAggAAAACA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Details" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Details.cs</FileName>
+      <HashCode>AEAAAgAABAABAAAAAAAAAAACCABAAAAAAAAAgIIAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.EmbeddedImage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EmbeddedImage.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAIQCAABCAAAAAAAAgABAAQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.EmbeddedImageCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EmbeddedImageCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAABAAAAAAAAAgAAQAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Expression" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Expression.cs</FileName>
+      <HashCode>ABAAAAAAAABAAAAEAAAAAAACAABAAAAAAAAggAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ExpressionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ExpressionCollection.cs</FileName>
+      <HashCode>AEIAAEAAAAAAAAAACAEABAACAABAAAAAAAAAgAAQAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Field" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Field.cs</FileName>
+      <HashCode>ABAAIAAAAAAAAAABAAAAABQCAABAABAABAAigCAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.FieldCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FieldCollection.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAACAABAAAAAAAACgCAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Filter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Filter.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAgACAABEAAAAAkAAgAAAIAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.FilterCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FilterCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.FilterExpression" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FilterExpression.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.FilterValue" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FilterValue.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.FilterValueCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>FilterValueCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Footer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Footer.cs</FileName>
+      <HashCode>AAAAAAACBAABAAAAAAAAAAACCARAAAAAAAAAgAAQAEA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.GroupExpressionCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>GroupExpressionCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Grouping" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Grouping.cs</FileName>
+      <HashCode>BCBAIAggEAkAIAAEAJICQAwSABBAYAAAAAAAggAIAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Header" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Header.cs</FileName>
+      <HashCode>AAAAAAACBAABAAAAAAAAAEACCABAAAAAAAAAgAAUAEA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Image" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Image.cs</FileName>
+      <HashCode>ABAAAAACAsAAAgABAAAAAABAAAAAgAAABAAgAABAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.Line" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Line.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAhAAAAAgAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.PageFooter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PageFooter.cs</FileName>
+      <HashCode>AAAAAAAABACBAAAAIAEAAAAiAADAAAAABAAAiCAAIAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.PageHeader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PageHeader.cs</FileName>
+      <HashCode>AAAAAAAABACBAAAAIAAAAAAiAADAAAAABAAAiSAAIAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Parameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Parameter.cs</FileName>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQCAABAAAAEAAAggAAAgAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ParameterCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ParametersCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ParameterValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ParameterValue.cs</FileName>
+      <HashCode>ABAAAAAAEAAAAAAAABAAAAACAABAAAAAAAAggAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ParameterValueCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ParameterValueCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.PropertyCollection" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PropertyCollection.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.Property" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PropertyCollection.cs</FileName>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.Query" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Query.cs</FileName>
+      <HashCode>AIQACAAIEAAACAaAAAAAAAACACBAAAAAABAAwAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.QueryParameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>QueryParameter.cs</FileName>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQCAABAAAAAAAAggAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.QueryParameterCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>QueryParameterCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Rdl" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Rdl.cs</FileName>
+      <HashCode>2frc+/t6sif/832z7jvV++hHlkW/y7z4ge0v73J8b/8=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.Rectangle" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Rectangle.cs</FileName>
+      <HashCode>AAAAAAgCAAAAIAABYAIBAADAAACAQAAAAAAgAAAAAEI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.Report" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Report.cs</FileName>
+      <HashCode>DABAVIABCAxlDMoMgOBjoFAXAFRgsAACAooAkwQgEAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ReportFont" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportFont.cs</FileName>
+      <HashCode>AABAABAAACGIAgAgAAAgAgAKBADEBAAAAAAAgAQAFgA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.FontNameConverter" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportFont.cs</FileName>
+      <HashCode>AAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.ReportFontWeight" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportFontWeight.cs</FileName>
+      <HashCode>ABAAAAAAAAAAAAAEAABAAAQAAABEAAQIIAAgCAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.ReportItem" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportItem.cs</FileName>
+      <HashCode>BEQIIAAAFAjCAAgFAJggAExCABBIoAgBDAAggCIAACI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ReportItemCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportItemCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAEACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ReportParameter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportParameter.cs</FileName>
+      <HashCode>gAAA8IAAAAYAIABAgIAAAKQGQABADABAAAJIgAAEcCI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.ReportParameterCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ReportParameterCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Style" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Style.cs</FileName>
+      <HashCode>EAAqQBAQCIEpAhAgDCAkAhBOSFjIAAQUIAEIkQUAMuA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Table" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Table.cs</FileName>
+      <HashCode>BAAAAAJQRQABQEIBAAAgAEBABAAggASEAgAABAAAEAo=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableCell" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableCell.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAAIAAAAAACAADAAAAAAAAAgAQAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableCellCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableCellCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableColumn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableColumn.cs</FileName>
+      <HashCode>AEAQAAAgAAAAAAAAAAAAAEACABBAAAAAAAAAgAIAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableColumnCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableColumnCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableGroup.cs</FileName>
+      <HashCode>BEAAAgAAAAAAAEAAAAAAAAACAABAAAAAAAAAhIIAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableGroupCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableGroupCollection.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableRow.cs</FileName>
+      <HashCode>AEAAAAAABACAAAAAAAAAAAACEABAAAAAABAAgAIABAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.TableRowCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TableRowCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Textbox" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Textbox.cs</FileName>
+      <HashCode>ABCAAAASAAQgAAABARAAgEJAAAAEgAABkAAgAIAAAQI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.ValidValues" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ValidValues.cs</FileName>
+      <HashCode>gAAAAQAAAAAAAAAAAAAgAAACAABAAAIAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Value" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Value.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reporting.ObjectModel.ValueCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ValueCollection.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Reporting.ObjectModel.Visibility" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Visibility.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAASgABAAAAAAAAAgAAEACA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Reporting.ObjectModel.Size" Collapsed="true">
+    <Position X="12" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AABgAAAAAAAAAAAE4AGAAgBAAAAAAIAAAAAAAAAAAiI=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Reporting.ObjectModel.Unit" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Unit.cs</FileName>
+      <HashCode>gJBgAAAAAIAAAgQEgAOBAgAEEAEIAIABIxAiAAEiAiA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Reporting.ObjectModel.ChartElementOutput" Collapsed="true">
+    <Position X="13.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.ChartType" Collapsed="true">
+    <Position X="17.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>EABAAAAAAAgAAAAAAABCAAAAgAAAABAAAgACAQABAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.ChartSubType" Collapsed="true">
+    <Position X="15.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>YAAAACAAAACAAAAAEAAAAAAACAAAAIBAAgAIAAABAAg=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.CommandType" Collapsed="true">
+    <Position X="19" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DataElementOutput" Collapsed="true">
+    <Position X="20.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAABAAAIAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DataElementStyle" Collapsed="true">
+    <Position X="22.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DataLabelPosition" Collapsed="true">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AgAAAAAIAAAAABAAAAAQAAAAAAAIAAAACACAACAIAEA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DataType" Collapsed="true">
+    <Position X="15.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAAAAAAAAgQAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DatapointDataElementOutput" Collapsed="true">
+    <Position X="13.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DetailDataElementOutput" Collapsed="true">
+    <Position X="17.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DataInstanceElementOutput" Collapsed="true">
+    <Position X="24.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Direction" Collapsed="true">
+    <Position X="19" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.DrawingStyle" Collapsed="true">
+    <Position X="20.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.CellDataElementOutput" Collapsed="true">
+    <Position X="12" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.GroupingDataElementOutput" Collapsed="true">
+    <Position X="22.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.LayoutDirection" Collapsed="true">
+    <Position X="24.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.LegendLayout" Collapsed="true">
+    <Position X="12" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAABAQAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.LegendPosition" Collapsed="true">
+    <Position X="13.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AgAAAAAIEAAAQBAAAAAAAQAAAAAAAQAAAAAKEAgAAEA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.MajorTickMarks" Collapsed="true">
+    <Position X="15.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.MarkerType" Collapsed="true">
+    <Position X="17.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAgAAgAAAACgACEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.MinorTickMarks" Collapsed="true">
+    <Position X="20.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.MIMEType" Collapsed="true">
+    <Position X="19" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>BAAAAAAAAgAAAAAAAAgAAAgAAAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Palette" Collapsed="true">
+    <Position X="24.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAABAAAAAAAABAAAAAAIgAAAAAAAAAAQEAAAAAAAEA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.PlotType" Collapsed="true">
+    <Position X="12" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Position" Collapsed="true">
+    <Position X="13.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.ProjectionMode" Collapsed="true">
+    <Position X="15.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.ReportDataElementStyle" Collapsed="true">
+    <Position X="17.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Sensitivity" Collapsed="true">
+    <Position X="19" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Shading" Collapsed="true">
+    <Position X="20.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Sizing" Collapsed="true">
+    <Position X="22.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAACAAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Source" Collapsed="true">
+    <Position X="24.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.TitlePosition" Collapsed="true">
+    <Position X="12" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>gAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.UsedInQuery" Collapsed="true">
+    <Position X="15.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.Operator" Collapsed="true">
+    <Position X="22.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>ACACAAAAAAEAAAAAgAAAAAAAAAAAIAAAAAQAAQRBgCA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Reporting.ObjectModel.UnitType" Collapsed="true">
+    <Position X="13.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Enumerations.cs</FileName>
+      <HashCode>AAAAAAAABQAAgAAAAAABAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
