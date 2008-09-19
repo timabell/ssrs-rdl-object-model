@@ -1,6 +1,7 @@
 using System;
 using System.Xml;
 using System.Xml.Serialization;
+using System.Drawing;
 
 namespace Reporting.ObjectModel
 {
@@ -11,11 +12,11 @@ namespace Reporting.ObjectModel
 	{
 		#region Private Variables
 
-		private Expression _default;
-		private Expression _left;
-		private Expression _right;
-		private Expression _top;
-		private Expression _bottom;
+        private Expression<Color> _default;
+        private Expression<Color> _left;
+        private Expression<Color> _right;
+        private Expression<Color> _top;
+        private Expression<Color> _bottom;
 
 		#endregion
 
@@ -27,12 +28,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// Color of the border.
 		/// </summary>
-		public Expression Default
+		public Expression<Color> Default
 		{
 			get
 			{
 				if (_default == null)
-					_default = new Expression();
+					_default = new Expression<Color>();
 
 				return _default;
 			}
@@ -42,12 +43,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// Color of the left border.
 		/// </summary>
-		public Expression Left
+        public Expression<Color> Left
 		{
 			get
 			{
 				if (_left == null)
-					_left = new Expression();
+                    _left = new Expression<Color>();
 
 				return _left;
 			}
@@ -57,12 +58,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// Color of the right border.
 		/// </summary>
-		public Expression Right
+        public Expression<Color> Right
 		{
 			get
 			{
 				if (_right == null)
-					_right = new Expression();
+                    _right = new Expression<Color>();
 
 				return _right;
 			}
@@ -72,12 +73,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// Color of the top border.
 		/// </summary>
-		public Expression Top
+        public Expression<Color> Top
 		{
 			get
 			{
 				if (_top == null)
-					_top = new Expression();
+                    _top = new Expression<Color>();
 
 				return _top;
 			}
@@ -87,12 +88,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// Color of the bottom border.
 		/// </summary>
-		public Expression Bottom
+        public Expression<Color> Bottom
 		{
 			get
 			{
 				if (_bottom == null)
-					_bottom = new Expression();
+                    _bottom = new Expression<Color>();
 
 				return _bottom;
 			}
@@ -129,7 +130,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.DEFAULT && !reader.IsEmptyElement)
 					{
 						if (_default == null)
-							_default = new Expression();
+                            _default = new Expression<Color>();
 
 						_default.Value = reader.ReadString();
 					}
@@ -138,7 +139,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.LEFT && !reader.IsEmptyElement)
 					{
 						if (_left == null)
-							_left = new Expression();
+                            _left = new Expression<Color>();
 
 						_left.Value = reader.ReadString();
 					}
@@ -147,7 +148,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.RIGHT && !reader.IsEmptyElement)
 					{
 						if (_right == null)
-							_right = new Expression();
+                            _right = new Expression<Color>();
 
 						_right.Value = reader.ReadString();
 					}
@@ -156,7 +157,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.TOP && !reader.IsEmptyElement)
 					{
 						if (_top == null)
-							_top = new Expression();
+                            _top = new Expression<Color>();
 
 						_top.Value = reader.ReadString();
 					}
@@ -165,7 +166,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.BOTTOM && !reader.IsEmptyElement)
 					{
 						if (_bottom == null)
-							_bottom = new Expression();
+                            _bottom = new Expression<Color>();
 
 						_bottom.Value = reader.ReadString();
 					}
@@ -184,23 +185,23 @@ namespace Reporting.ObjectModel
 
 			//--- Default
 			if (_default != null)
-				writer.WriteElementString(Rdl.DEFAULT, _default.Value.ToString());
+				writer.WriteElementString(Rdl.DEFAULT, _default.ToString());
 
 			//--- Left
 			if (_left != null)
-				writer.WriteElementString(Rdl.LEFT, _left.Value.ToString());
+				writer.WriteElementString(Rdl.LEFT, _left.ToString());
 
 			//--- Right
 			if (_right != null)
-				writer.WriteElementString(Rdl.RIGHT, _right.Value.ToString());
+				writer.WriteElementString(Rdl.RIGHT, _right.ToString());
 
 			//--- Top
 			if (_top != null)
-				writer.WriteElementString(Rdl.TOP, _top.Value.ToString());
+				writer.WriteElementString(Rdl.TOP, _top.ToString());
 
 			//--- Bottom
 			if (_bottom != null)
-				writer.WriteElementString(Rdl.BOTTOM, _bottom.Value.ToString());
+				writer.WriteElementString(Rdl.BOTTOM, _bottom.ToString());
 
 			writer.WriteEndElement();
 		}
