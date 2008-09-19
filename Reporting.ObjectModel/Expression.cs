@@ -11,7 +11,7 @@ namespace Reporting.ObjectModel
 	{
 		#region Private Variables
 
-		private object	_value;
+		protected object	_value;
 
 		#endregion
 
@@ -63,5 +63,32 @@ namespace Reporting.ObjectModel
 		}
 
 		#endregion
-}
+	}
+
+	public class Expression<T> : Expression
+	{
+		public Expression() : base()
+		{
+		}
+
+		public Expression(string value) : base(value)
+		{
+		}
+
+		public static implicit operator Expression<T>(T o)
+		{
+			Expression<T> e = new Expression<T>();
+			e._value = o;
+			return e;
+		}
+
+		public override string ToString()
+		{
+			string tmp = this._value.ToString();
+			if (typeof(T) == typeof(System.Drawing.Color))
+				if (!IsExpression(tmp) && _value is System.Drawing.Color)
+					return Style.ColorToString((System.Drawing.Color)_value);
+			return tmp;
+		}
+	}
 }
