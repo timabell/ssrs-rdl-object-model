@@ -2,6 +2,7 @@ using System;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Text;
+using System.Drawing;
 
 namespace Reporting.ObjectModel
 {
@@ -16,9 +17,9 @@ namespace Reporting.ObjectModel
 		private BorderColor		_borderColor;
 		private BorderStyle		_borderStyle;
 		private BorderWidth		_borderWidth;
-		private Expression		_backgroundColor;
+		private Expression<Color> _backgroundColor;
 		private Expression		_backgroundGradientType;
-		private Expression		_backgroundGradientEndColor;
+		private Expression<Color> _backgroundGradientEndColor;
 		private Expression		_fontStyle;
 		private Expression		_fontFamily;
 		private Expression		_fontSize;
@@ -27,7 +28,7 @@ namespace Reporting.ObjectModel
 		private Expression		_textDecoration;
 		private Expression		_textAlign;
 		private Expression		_verticalAlign;
-		private Expression		_color;
+		private Expression<Color> _color;
 		private Expression		_paddingLeft;
 		private Expression		_paddingRight;
 		private Expression		_paddingTop;
@@ -96,12 +97,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// Color of the background.
 		/// </summary>
-		public Expression BackgroundColor
+		public Expression<Color> BackgroundColor
 		{
 			get
 			{
 				if (_backgroundColor == null)
-					_backgroundColor = new Expression();
+					_backgroundColor = new Expression<Color>();
 
 				return _backgroundColor;
 			}
@@ -126,12 +127,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// End color for the background gradient.
 		/// </summary>
-		public Expression BackgroundGradientEndColor
+		public Expression<Color> BackgroundGradientEndColor
 		{
 			get
 			{
 				if (_backgroundGradientEndColor == null)
-					_backgroundGradientEndColor = new Expression();
+					_backgroundGradientEndColor = new Expression<Color>();
 
 				return _backgroundGradientEndColor;
 			}
@@ -262,12 +263,12 @@ namespace Reporting.ObjectModel
 		/// <summary>
 		/// The foreground color.
 		/// </summary>
-		public Expression Color
+		public Expression<Color> Color
 		{
 			get
 			{
 				if (_color == null)
-					_color = new Expression();
+					_color = new Expression<Color>();
 
 				return _color;
 			}
@@ -519,7 +520,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.BACKGROUNDCOLOR && !reader.IsEmptyElement)
 					{
 						if (_backgroundColor == null)
-							_backgroundColor = new Expression();
+							_backgroundColor = new Expression<Color>();
 
 						_backgroundColor.Value = reader.ReadString();
 					}
@@ -537,7 +538,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.BACKGROUNDGRADIENTENDCOLOR && !reader.IsEmptyElement)
 					{
 						if (_backgroundGradientEndColor == null)
-							_backgroundGradientEndColor = new Expression();
+							_backgroundGradientEndColor = new Expression<Color>();
 
 						_backgroundGradientEndColor.Value = reader.ReadString();
 					}
@@ -619,7 +620,7 @@ namespace Reporting.ObjectModel
 					if (reader.Name == Rdl.COLOR && !reader.IsEmptyElement)
 					{
 						if (_color == null)
-							_color = new Expression();
+							_color = new Expression<Color>();
 
 						_color.Value = reader.ReadString();
 					}
@@ -758,151 +759,149 @@ namespace Reporting.ObjectModel
 				((IXmlSerializable)_borderWidth).WriteXml(writer);
 
 			//--- BackgroundColor
-            if (_backgroundColor != null && !string.IsNullOrEmpty(_backgroundColor.Value.ToString()) && _backgroundColor.Value.ToString()!="Transparent")
-				writer.WriteElementString(Rdl.BACKGROUNDCOLOR, _backgroundColor.Value.ToString());
+			if (_backgroundColor != null && !string.IsNullOrEmpty(_backgroundColor.Value.ToString()) && _backgroundColor.Value.ToString()!="Transparent")
+				writer.WriteElementString(Rdl.BACKGROUNDCOLOR, _backgroundColor.ToString());
 
 			//--- BackgroundGradientType
-            if (_backgroundGradientType != null && !string.IsNullOrEmpty(_backgroundGradientType.Value.ToString()))
+			if (_backgroundGradientType != null && !string.IsNullOrEmpty(_backgroundGradientType.Value.ToString()))
 				writer.WriteElementString(Rdl.BACKGROUNDGRADIENTTYPE, _backgroundGradientType.Value.ToString());
 
 			//--- BackgroundGradientEndColor
-            if (_backgroundGradientEndColor != null && !string.IsNullOrEmpty(_backgroundGradientEndColor.Value.ToString()))
-				writer.WriteElementString(Rdl.BACKGROUNDGRADIENTENDCOLOR, _backgroundGradientEndColor.Value.ToString());
+			if (_backgroundGradientEndColor != null && !string.IsNullOrEmpty(_backgroundGradientEndColor.Value.ToString()))
+				writer.WriteElementString(Rdl.BACKGROUNDGRADIENTENDCOLOR, _backgroundGradientEndColor.ToString());
 
 			//--- FontStyle
 			if (_fontStyle != null && !string.IsNullOrEmpty(_fontStyle.Value.ToString()))
 				writer.WriteElementString(Rdl.FONTSTYLE, _fontStyle.Value.ToString());
 
 			//--- FontFamily
-            if (_fontFamily != null && !string.IsNullOrEmpty(_fontFamily.Value.ToString()))
+			if (_fontFamily != null && !string.IsNullOrEmpty(_fontFamily.Value.ToString()))
 				writer.WriteElementString(Rdl.FONTFAMILY, _fontFamily.Value.ToString());
 
 			//--- FontSize
-            if (_fontSize != null && !string.IsNullOrEmpty(_fontSize.Value.ToString()))
-            {
-                int result;
-                writer.WriteElementString(Rdl.FONTSIZE, int.TryParse(_fontSize.Value.ToString(),
-                    out result) ? String.Format("{0}pt", result) : _fontSize.Value.ToString());
-            }
+			if (_fontSize != null && !string.IsNullOrEmpty(_fontSize.Value.ToString()))
+			{
+				int result;
+				writer.WriteElementString(Rdl.FONTSIZE, int.TryParse(_fontSize.Value.ToString(),
+					out result) ? String.Format("{0}pt", result) : _fontSize.Value.ToString());
+			}
 
 			//--- FontWeight
-            if (_fontWeight != null && !string.IsNullOrEmpty(_fontWeight.Value.ToString()))
+			if (_fontWeight != null && !string.IsNullOrEmpty(_fontWeight.Value.ToString()))
 				writer.WriteElementString(Rdl.FONTWEIGHT, _fontWeight.Value.ToString());
 
 			//--- Format
-            if (_format != null && _format.Value != null && !string.IsNullOrEmpty(_format.Value.ToString()))
-                writer.WriteElementString(Rdl.FORMAT, _format.Value.ToString());
+			if (_format != null && _format.Value != null && !string.IsNullOrEmpty(_format.Value.ToString()))
+				writer.WriteElementString(Rdl.FORMAT, _format.Value.ToString());
 
 			//--- TextDecoration
-            if (_textDecoration != null && !string.IsNullOrEmpty(_textDecoration.Value.ToString()))
+			if (_textDecoration != null && !string.IsNullOrEmpty(_textDecoration.Value.ToString()))
 				writer.WriteElementString(Rdl.TEXTDECORATION, _textDecoration.Value.ToString());
 
 			//--- TextAlign
-            if (_textAlign != null && !string.IsNullOrEmpty(_textAlign.Value.ToString()))
+			if (_textAlign != null && !string.IsNullOrEmpty(_textAlign.Value.ToString()))
 				writer.WriteElementString(Rdl.TEXTALIGN, _textAlign.Value.ToString());
 
 			//--- VerticalAlign
-            if (_verticalAlign != null && !string.IsNullOrEmpty(_verticalAlign.Value.ToString()))
+			if (_verticalAlign != null && !string.IsNullOrEmpty(_verticalAlign.Value.ToString()))
 				writer.WriteElementString(Rdl.VERTICALALIGN, _verticalAlign.Value.ToString());
 
 			//--- Color
-            if (_color != null && !string.IsNullOrEmpty(_color.Value.ToString()))
-				writer.WriteElementString(Rdl.COLOR, _color.Value.ToString());
+			if (_color != null && !string.IsNullOrEmpty(_color.ToString()))
+				writer.WriteElementString(Rdl.COLOR, _color.ToString());
 
 			//--- PaddingLeft
-            if (_paddingLeft != null && !string.IsNullOrEmpty(_paddingLeft.Value.ToString()))
+			if (_paddingLeft != null && !string.IsNullOrEmpty(_paddingLeft.Value.ToString()))
 				writer.WriteElementString(Rdl.PADDINGLEFT, _paddingLeft.Value.ToString());
 
 			//--- PaddingRight
-            if (_paddingRight != null && !string.IsNullOrEmpty(_paddingRight.Value.ToString()))
+			if (_paddingRight != null && !string.IsNullOrEmpty(_paddingRight.Value.ToString()))
 				writer.WriteElementString(Rdl.PADDINGRIGHT, _paddingRight.Value.ToString());
 
 			//--- PaddingTop
-            if (_paddingTop != null && !string.IsNullOrEmpty(_paddingTop.Value.ToString()))
+			if (_paddingTop != null && !string.IsNullOrEmpty(_paddingTop.Value.ToString()))
 				writer.WriteElementString(Rdl.PADDINGTOP, _paddingTop.Value.ToString());
 
 			//--- PaddingBottom
-            if (_paddingBottom != null && !string.IsNullOrEmpty(_paddingBottom.Value.ToString()))
+			if (_paddingBottom != null && !string.IsNullOrEmpty(_paddingBottom.Value.ToString()))
 				writer.WriteElementString(Rdl.PADDINGBOTTOM, _paddingBottom.Value.ToString());
 
 			//--- LineHeight
-            if (_lineHeight != null && !string.IsNullOrEmpty(_lineHeight.Value.ToString()))
+			if (_lineHeight != null && !string.IsNullOrEmpty(_lineHeight.Value.ToString()))
 				writer.WriteElementString(Rdl.LINEHEIGHT, _lineHeight.Value.ToString());
 
 			//--- Direction
-            if (_direction != null && !string.IsNullOrEmpty(_direction.Value.ToString()))
+			if (_direction != null && !string.IsNullOrEmpty(_direction.Value.ToString()))
 				writer.WriteElementString(Rdl.DIRECTION, _direction.Value.ToString());
 
 			//--- WritingMode
-            if (_writingMode != null && !string.IsNullOrEmpty(_writingMode.Value.ToString()))
+			if (_writingMode != null && !string.IsNullOrEmpty(_writingMode.Value.ToString()))
 				writer.WriteElementString(Rdl.WRITINGMODE, _writingMode.Value.ToString());
 
 			//--- Language
-            if (_language != null && !string.IsNullOrEmpty(_language.Value.ToString()))
+			if (_language != null && !string.IsNullOrEmpty(_language.Value.ToString()))
 				writer.WriteElementString(Rdl.LANGUAGE, _language.Value.ToString());
 
 			//--- UnicodeBiDi
-            if (_unicodeBiDi != null && !string.IsNullOrEmpty(_unicodeBiDi.Value.ToString()))
+			if (_unicodeBiDi != null && !string.IsNullOrEmpty(_unicodeBiDi.Value.ToString()))
 				writer.WriteElementString(Rdl.UNICODEBIDI, _unicodeBiDi.Value.ToString());
 
 			//--- Calendar
-            if (_calendar != null && !string.IsNullOrEmpty(_calendar.Value.ToString()))
+			if (_calendar != null && !string.IsNullOrEmpty(_calendar.Value.ToString()))
 				writer.WriteElementString(Rdl.CALENDAR, _calendar.Value.ToString());
 
 			//--- NumeralLanguage
-            if (_numeralLanguage != null && !string.IsNullOrEmpty(_numeralLanguage.Value.ToString()))
+			if (_numeralLanguage != null && !string.IsNullOrEmpty(_numeralLanguage.Value.ToString()))
 				writer.WriteElementString(Rdl.NUMERALLANGUAGE, _numeralLanguage.Value.ToString());
 
 			//--- NumeralVariant
-            if (_numeralVariant != null && !string.IsNullOrEmpty(_numeralVariant.Value.ToString()))
+			if (_numeralVariant != null && !string.IsNullOrEmpty(_numeralVariant.Value.ToString()))
 				writer.WriteElementString(Rdl.NUMERALVARIANT, _numeralVariant.Value.ToString());
 
 			writer.WriteEndElement();
 		}
 		#endregion
 
-        public static string ColorToString(System.Drawing.Color color)
-        {
-            string c = color.Name;
+		public static string ColorToString(System.Drawing.Color color)
+		{
+			string c = color.Name;
 
 
-            if (color.Name.StartsWith("ff"))
-            {
-                c = color.Name.Remove(0, 2);
-                c = "#" + c;
-            }
-            else
-            {
-                // weird RS bug LightGrey instead of LightGray
-                if (c == "LightGray") c = "LightGrey";
-            }
+			if (color.Name.StartsWith("ff"))
+			{
+				c = color.Name.Remove(0, 2);
+				c = "#" + c;
+			}
+			else
+			{
+				// weird RS bug LightGrey instead of LightGray
+				if (c == "LightGray") c = "LightGrey";
+			}
 
-            return c;
+			return c;
 
-        }
-        public static System.Drawing.Color ColorFromString(string c)
-        {
-            System.Drawing.Color color;
+		}
+		public static System.Drawing.Color ColorFromString(string c)
+		{
+			System.Drawing.Color color;
 
-            if (c.StartsWith("#"))
-            {
-                string red = c.Substring(1, 2);
-                string green = c.Substring(3, 2);
-                string blue = c.Substring(5, 2);
+			if (c.StartsWith("#"))
+			{
+				string red = c.Substring(1, 2);
+				string green = c.Substring(3, 2);
+				string blue = c.Substring(5, 2);
 
-                color = System.Drawing.Color.FromArgb(Convert.ToInt32(red, 16), Convert.ToInt32(green, 16), Convert.ToInt32(blue, 16));
-            }
-            else
-            {
-                // weird RS bug LightGrey instead of LightGray
-                if (c == "LightGrey") c = "LightGray";
-                color = System.Drawing.Color.FromName(c);
-            }
+				color = System.Drawing.Color.FromArgb(Convert.ToInt32(red, 16), Convert.ToInt32(green, 16), Convert.ToInt32(blue, 16));
+			}
+			else
+			{
+				// weird RS bug LightGrey instead of LightGray
+				if (c == "LightGrey") c = "LightGray";
+				color = System.Drawing.Color.FromName(c);
+			}
 
-            return color;
-        }
-
-
+			return color;
+		}
 	}
 }
 
