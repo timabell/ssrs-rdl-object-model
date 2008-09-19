@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using System.Globalization;
 
 namespace Reporting.ObjectModel
 {
@@ -305,14 +306,14 @@ namespace Reporting.ObjectModel
 			_unit = Unit.Parse(size);
         }
 
-        public Size(Unit unit)
-        {
-            _unit = unit;
-        }
-        public Size(double inches)
-        {
-            _unit = Unit.Parse(inches.ToString()+"in");
-        }
+		public Size(Unit unit)
+		{
+			_unit = unit;
+		}
+		public Size(double inches)
+		{
+			_unit = Unit.Parse(inches.ToString(CultureInfo.InvariantCulture.NumberFormat) + "in");
+		}
 
 		#region Public Properties
 
