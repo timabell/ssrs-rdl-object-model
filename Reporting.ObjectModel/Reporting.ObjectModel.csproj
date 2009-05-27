@@ -80,6 +80,7 @@
     <Compile Include="Header.cs" />
     <Compile Include="Image.cs" />
     <Compile Include="Line.cs" />
+    <Compile Include="List.cs" />
     <Compile Include="PageFooter.cs" />
     <Compile Include="PageHeader.cs" />
     <Compile Include="Parameter.cs" />
