@@ -54,12 +54,13 @@ namespace Reporting.ObjectModel
 			return null;
 		}
 
-		public void ReadXml(XmlReader reader)
+		public virtual void ReadXml(XmlReader reader)
 		{
 		}
 
-		public void WriteXml(XmlWriter writer)
+		public virtual void WriteXml(XmlWriter writer)
 		{
+            writer.WriteRaw(this.ToString());
 		}
 
 		#endregion
