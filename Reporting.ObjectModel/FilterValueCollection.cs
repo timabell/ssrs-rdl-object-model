@@ -20,9 +20,9 @@ namespace Reporting.ObjectModel
 		{
 			writer.WriteStartElement(Rdl.FILTERVALUES);
 
-			foreach (IXmlSerializable filterValue in Items)
-				filterValue.WriteXml(writer);
-
+            foreach (IXmlSerializable filterValue in Items)
+                filterValue.WriteXml(writer);
+            
 			writer.WriteEndElement();
 		}
 
