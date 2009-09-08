@@ -339,7 +339,7 @@ namespace Reporting.ObjectModel
 			}
 			catch
 			{
-				throw new FormatException(string.Format("The numeric portion of {0} cannot be parsed as a unit of type {2}.", value, _type.ToString("G")));
+				throw new FormatException(string.Format("The numeric portion of {0} cannot be parsed as a unit of type {1}.", value, _type.ToString("G")));
 			}
 		}
 
