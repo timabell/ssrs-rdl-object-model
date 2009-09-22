@@ -428,11 +428,15 @@ namespace Reporting.ObjectModel
 		public static string EscapeName(string Name)
 		{
 			string tmp = Name.Replace(" ", "_");
-			tmp = Name.Replace(".", "_");
+            foreach(string s in new string[] {".", "-", "*", "/", "^" })
+			    tmp = tmp.Replace(s, "_");
+            
 			try
 			{
-				int num = Convert.ToInt32(tmp);
-				return "E_" + num;
+                if (tmp.Length > 0)
+                    if (Char.IsDigit(tmp[0]))
+				        return "E_" + tmp;
+                return tmp;
 			}
 			catch (Exception)
 			{
