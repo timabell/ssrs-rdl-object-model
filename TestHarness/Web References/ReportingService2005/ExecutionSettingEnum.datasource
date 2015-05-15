@@ -6,5 +6,5 @@
     cause the file to be unrecognizable by the program.
 -->
 <GenericObjectDataSource DisplayName="ExecutionSettingEnum" Version="1.0" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
-   <TypeInfo>TestHarness.ReportingService2005.ExecutionSettingEnum, Web References.ReportingService2005.Reference.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</TypeInfo>
+   <TypeInfo>TestHarness.ReportingService2005.ExecutionSettingEnum</TypeInfo>
 </GenericObjectDataSource>
